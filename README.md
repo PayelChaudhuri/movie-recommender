@@ -264,9 +264,9 @@ This is what the function returns:
 
 ### Model Deployment
 
-Deployed the model on local server with the help of Streamlit Library. I must say, it was very efficient to use. Then for finally publishing it online, I took the help of Heroku.
+Deployed the model on local server with the help of Streamlit Library. I must say, it was very efficient to use. Then for finally publishing it online, I took the help of Streamlit.
 
-For the top 12 movies it matches the the movie id with the TMDB database and extract other information for the movies from the websites. I chose to display the poster along with names on the site.
+For the top 5 movies it matches the the movie id with the TMDB database and extract other information for the movies from the websites. I chose to display the poster along with names on the site.
 
 Link ---> [Movie Recommender System](https://movie-recommender-system-live.streamlit.app/)
 
