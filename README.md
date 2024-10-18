@@ -270,7 +270,7 @@ For the top 12 movies it matches the the movie id with the TMDB database and ext
 
 Link ---> [Movie Recommender System](https://movie-recommender-system-live.streamlit.app/)
 
-![image](https://user-images.githubusercontent.com/86877457/132918384-1858f9c5-a86b-4af2-b843-8e31d5bf21b5.png)
+<img src="demo/1.png" alt="workflow" width="70%">
 
 <!-- FINAL THOUGHTS -->
 ## Final Thoughts
