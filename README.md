@@ -12,7 +12,7 @@
 </p>
 
 
-**Link for the Website ---> [Movie Recommender System](https://movie-recommender-system-0.herokuapp.com/)**
+**Link for the Website ---> [Movie Recommender System](https://movie-recommender-system-live.streamlit.app/)**
 
 
 <!-- TABLE OF CONTENTS -->
@@ -268,7 +268,7 @@ Deployed the model on local server with the help of Streamlit Library. I must sa
 
 For the top 12 movies it matches the the movie id with the TMDB database and extract other information for the movies from the websites. I chose to display the poster along with names on the site.
 
-Link ---> [Movie Recommender System](https://movie-recommender-system-0.herokuapp.com/)
+Link ---> [Movie Recommender System](https://movie-recommender-system-live.streamlit.app/)
 
 ![image](https://user-images.githubusercontent.com/86877457/132918384-1858f9c5-a86b-4af2-b843-8e31d5bf21b5.png)
 
