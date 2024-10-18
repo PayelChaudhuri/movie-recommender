@@ -2,7 +2,22 @@ import streamlit as st
 import pickle
 import pandas as pd
 import requests
+import os
+
 ''' This is a movie recommender system. You will get all the movies.'''
+
+# Function to combine the split files back into a single file
+def combine_files(output_file, part_files):
+    with open(output_file, 'wb') as output_f:
+        for part_file in part_files:
+            with open(part_file, 'rb') as f:
+                output_f.write(f.read())
+    print(f'Files combined into {output_file}')
+
+# Check if the combined similarity.pkl file already exists, if not, recombine it
+if not os.path.exists('similarity.pkl'):
+    part_files = ['similarity.pkl_part_0', 'similarity.pkl_part_1', 'similarity.pkl_part_2']  # List all part files
+    combine_files('similarity.pkl', part_files)
 
 def fetch_poster(movie_id):
     """Fetch poster image URL using the TMDB API."""
