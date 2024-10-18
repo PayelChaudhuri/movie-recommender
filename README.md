@@ -6,7 +6,7 @@
   <h3 align="center">Movies Recommendation System</h3>
 
   <p align="center">
-    In this project, I have built an English Movies Recommendation system with ML concepts and deployed it using the StreamLit library using Heroku. This model recommends shows the top 12 recommendations for the given movie name.
+    In this project, I have built an English Movies Recommendation system with ML concepts and deployed it using the StreamLit library. This model recommends shows the top 5 recommendations for the given movie name.
     <br />
   </p>
 </p>
